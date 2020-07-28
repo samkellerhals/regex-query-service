@@ -1,0 +1,10 @@
+fastapi
+pandas
+databases[postgresql]
+sqlalchemy
+pydantic
+numpy
+uvicorn
+fastparquet
+pytest
+requests

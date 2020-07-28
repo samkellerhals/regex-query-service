@@ -1,0 +1,6 @@
+/env
+.DS_Store
+.idea/
+app/.DS_Store
+app/__pycache__/
+app/api/__pycache__/
