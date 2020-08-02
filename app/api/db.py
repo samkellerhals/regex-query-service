@@ -14,7 +14,7 @@ outlet_data = pd.read_parquet(
 )
 
 # specify AWS database URL
-DATABASE_URL = 'postgresql://postgres:password@dashmote-db.clezwtvgxfwg.eu-west-1.rds.amazonaws.com/postgres'
+DATABASE_URL = 'postgresql://postgres:dashmote@dashmote-db.clezwtvgxfwg.eu-west-1.rds.amazonaws.com/postgres'
 
 engine = create_engine(DATABASE_URL)
 
